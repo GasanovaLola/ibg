@@ -1,0 +1,33 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	display: none;
+	margin: auto 0;
+}
+.nav-link {
+	text-decoration: none;
+}
+.nav-item {
+	margin: 0 25px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 100;
+    letter-spacing: 1.5px;
+	border-bottom: 1.5px solid #FFF;
+	padding: 5px 0;
+}
+.nav-item:hover {
+	border-bottom: 1.5px solid #AD153D;
+	color: #AD153D;
+}
+.is-active {
+	color: #AD153D;
+	border-bottom: 1.5px solid #AD153D;
+}
+
+@media (min-width: 1120px) {
+	.nav {
+		display: block;
+	}
+}

@@ -1,0 +1,17 @@
+.slick {
+	z-index: 1;
+}
+.slick-item {
+	height: 382px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.background {
+	height: 500px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	color: #FFF;
+}

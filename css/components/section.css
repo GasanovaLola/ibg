@@ -1,0 +1,39 @@
+.main {
+	margin: 90px 0;
+}
+.section-title {
+	text-align: center;
+    font-size: 44px;
+    color: #AD153D;
+    font-weight: 100;
+    margin: 35px 0;
+    line-height: 50px;
+}
+.section {
+	margin: 70px 0;
+}
+.section-items {
+	padding: 10px;
+	height: 200px;
+	overflow: hidden;
+}
+
+@media (max-width: 480px) {
+	.section {
+	    margin: 35px 0;
+	}
+	.img-row {
+	    height: 160px;
+	    width: 100%;
+	    margin-top: 30px;
+	    overflow: hidden;
+	}
+	.section-title {
+	    text-align: center;
+	    font-size: 25px;
+	    color: #AD153D;
+	    font-weight: 100;
+	    margin: 10px 0;
+	    line-height: 32px;
+	}
+}

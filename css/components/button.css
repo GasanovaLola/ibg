@@ -1,0 +1,46 @@
+.button {
+	background-color: transparent;
+    border: 1px solid #CCC;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    /* margin-top: 11px; */
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.button:hover {
+	border: 1px solid #AD153D;
+	color: #AD153D;
+}
+
+
+
+
+#button {
+  display: inline-block;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  padding: 10px 15px; 
+  border: 1px solid #AD153D;   
+  color: #AD153D;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #FFF;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}

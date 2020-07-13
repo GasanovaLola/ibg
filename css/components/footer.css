@@ -1,0 +1,18 @@
+.footer {
+	padding: 50px 0;
+    border-top: 1px solid #ccc;
+    margin: 150px 0 0 0;
+}
+.footer-title {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #AD153D;
+}
+.footer-link {
+	text-decoration: none;
+	color: #CCC;
+	font-size: 16px;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}

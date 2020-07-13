@@ -1,0 +1,24 @@
+.hero {
+	position: relative;
+}
+.hero-block {
+	background: rgba(51, 51, 51, 0.65);
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    margin-top: 87px;
+    padding: 30px;
+}
+.hero-title {
+	color: #FFF;
+	letter-spacing: 1px;
+	font-size: 37px;
+    font-weight: 100;
+    line-height: 37px;
+}
+.hero-description {
+	font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
